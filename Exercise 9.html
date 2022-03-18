@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="Jona Buyayao" content="Exercise 9 - Forms" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Registration Form Jona Buyayao</title>
+</head>
+<body>
+<font face="verdana">
+    <blockquote>
+		<h2 style="text-align: center;">Sign Up Now!</h2>
+        <h4>Fields marked (*) are required</h4>
+			<form>
+				<fieldset>
+                    <legend><h4>Your Details</h4></legend>
+					Name* <input type="text" size="30" max="25" name="name" title="" placeholder="Full name" /><br />
+                    Email* <input type="text" size="30" max="25" name="email" title="" placeholder="e.g.ryan@example.net.com" /><br />
+                    Phone* <input type="tel" size="30" max="" name="phone" title="" placeholder="Please enter an eleven numbers"/><br />
+				</fieldset>
+                <fieldset>
+                    <legend><h4>Delivery Address</h4></legend>
+                    Address1* <input type="text" size="30" max="25" name="adress1" title="" placeholder="e.g.ryan@example.net.com" /><br />
+                    District/Barangay* <input type="text" size="30" max="25" name="district/barangay" title="" placeholder="House/Apt Number and Street" /><br />
+                    City* <select id="city" name="city">
+                        <option value="angeles">Angeles</option>
+                        <option value="manila">Manila</option>
+                        <option value="baguio">Baguio</option>
+                        <option value="quezon">Quezon</option>
+                    </select><br>
+                    Postal Code* <input type="tel" size="30" max="" name="postalcode" title="" placeholder=""/><br />
+                    Province* <select id="province" name="province">
+                        <option value="albay">Albay</option>
+                        <option value="bulacan">Bulacan</option>
+                        <option value="benguet">Benguet</option>
+                        <option value="cagayan">Cagayan</option>
+                    </select><br>
+                </fieldset>
+                <fieldset>
+                    <legend><h4>Membership Information</h4></legend>
+                    Username* <input type="text" size="30" max="25" name="username" title="" placeholder="Atleast 8 alphanumeric characters" /><br />
+                    Password* <input type="password" size="30" max="" name="Password" title=""/><br />
+                    Magazine Subscription* 
+                    <input type="checkbox" name="pcmagazine" value="p"> PCMagazine<br>
+					<input type="checkbox" name="wired" value="w"> Wired<br>
+					<input type="checkbox" name="computerworld" value="cw"> Computerworld<br>
+					<input type="checkbox" name="idon'tsubscribe" value="ids"> I don't subscribe<br>
+                    <input type="checkbox" name="other" value="o"> Other<br>
+                </fieldset>
+                <input type="submit" value="SignUp">
+            </form>
+    </blockquote>
+</font>
+</body>
+</html>
+
+
+               
+                
