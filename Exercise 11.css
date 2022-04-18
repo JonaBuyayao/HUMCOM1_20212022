@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Exercise 11</title>
+<meta charset="utf-8" />
+<meta name="Jona Buyayao" content="Exercise 11" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css"
+    href="styles/styles.css">
+<style>
+ body
+    {
+        background-color: rgb(105, 0, 0);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+header
+    {
+    background-color: rgb(160, 160, 160);
+    border: 2px solid rgb(236, 201, 0);
+    padding: 120px;
+    margin: 25px;
+    }
+img
+    {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    background-color: rgb(160, 160, 160);
+    border: 2px solid rgb(236, 201, 0);
+    padding: 0px;
+    margin: 30px;
+    }
+.topmenu li
+    {
+        float: right
+    }
+.topmenu li a 
+    {
+    display: inline;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    text-decoration: none;
+    border: 2px solid rgb(236, 201, 0);
+    margin: 10px;
+    }
+
+section
+    {
+    background-color: rgb(184, 184, 184);
+    border: 2px solid rgb(236, 201, 0);
+    padding: 40px;
+    margin: 25px;
+    }
+.right
+    {
+        background-image: url("ha4.png");
+        font-size: larger;
+        color:white
+    }
+.left
+    {
+        background-image: url("hed2.jpg");
+        font-size: larger;
+        color:white;
+    }
+.center
+    {
+        background-image: url("hed.jpg");
+        font-size: larger;
+        color:white;
+    }
+
+h3, p
+    {
+        font-size: larger;
+        color:rgb(255, 255, 255)
+    }
+footer
+    {
+    background-color: rgb(160, 160, 160);
+    border: 2px solid rgb(236, 201, 0);
+    padding: 10px;
+    margin: 25px;
+    }
+</style>
+    <body>
+        <header>
+            <img src="logo1.jpg" alt="best1" width="200" height="200">
+            <ul class="topmenu">
+                <li><a href="#Movie" class="active">Movie</a></li>
+                <li><a href="#Things">Things</a></li>
+                <li><a href="#Music">Music</a></li>
+                <li><a href="#Reference">Reference</a></li>
+              </ul>
+        </header>
+        
+        <section>
+            <h3>This are Few of My Favorites</h3>
+            <article class="right">
+                <p><b>Haikyuu</b>
+                    <div>Haikyu is a popular Japanese manga television series. The story follows the story of a young boy naming Shoyo Hinata, who is obsessed with the volleyball game and determined to become a famous volleyball player. As a volleyball player, watching Haikyuu motivates mo to continue playing vvolleyball. Eversince i was in elementary i've been playing volleyball and entered competitions. Likewise to Hinata Shoyo i am also determined to become a professional volleyball player. However, at this point i've come to the point were these things that i use to love to do doesn't matter to me anymore and i lost interest in doing them. Because i jhave a lot of passion in volleyball, i don't want to lose that so that's why i watch haikyuu and other motivational movies that keeps me motivated to do the things i love and to keep on doing them. Also, Haikyuu is a very funny series and at the same time it engages learning.
+                    </div></p></article>
+            </article>
+            <article class="left">
+                <p><b>Headset/Headphones</b>
+                    <div>To a lot of people this may seem silly. But to others like me, who struggle on a daily basis to talk to people, using headphones is a big deal. As an introvert who is also a highly sensitive person (HSP), I am often anxious when i am around with people. I can't bring myself to talk to people that's why i often wear headphones.Ideally, headphones symbolizes that a person is busy and they do not want to be bothered. This is why i wear them to avoid people from talking to me or talking to them because if they would start a conversation with me i really don't know how to response or talk with them which makes me anxious and it stresses me out. Also, my thoughts are sporadic and ever-changing based on the moods and actions of the people around me. Being an HSP is a good thing because we can often sense others’ needs, but it can also be overwhelming.
+                    </div>
+                </p>
+            </article>
+            <article class="center">
+                <p><b>Music</b>
+                    <div>This is one of my favoritething to do because it can help treat mental illness and it has the power to change moods and help people process their feelings. If i want a happy mood i can just play music for me to stay happy. This plays an important role in my life because when i have a problem where there are many thoughts in my brains and when i am sad, music helps me to be distracted and not focus on the problem, it helps me not to think about it. There are a lot of reasons why i listen to music but these are few of them.
+                    </div>
+                </p>
+            </article>
+<br>
+            <footer>
+                <p>
+                    References:
+                    <ul>
+                        <li>https://www.pinterest.ph/pin/791578071992688649/?mt=login</li>
+                        <li>https://gizmostory.com/haikyuu-season-4-rumors-about-its-cancellation-upcoming-news-possibilities-latest-updates-soundtrack-and-plot-you-should-know/</li>
+                        <li>https://womenwriteaboutcomics.com/2020/05/why-you-should-read-haikyu/</li>
+                        <li>https://wallpaperaccess.com/anime-headphones#google_vignette</li>
+                        <li>https://www.pinterest.ph/pin/200832464623733749/</li>
+                        <li>https://wall.alphacoders.com/by_sub_category.php?id=232856&name=Haikyu%21%21+Wallpapers</li>
+                    </ul>
+                </p>
+            </footer>
+        </section>
+    </body>
+</head>
+</html>
