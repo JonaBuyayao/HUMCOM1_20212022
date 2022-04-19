@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Exercise 12</title>
+<meta charset="utf-8" />
+<meta name="Jona Buyayao" content="Exercise 12" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="Exercise 12 - Box Model/css"
+    href="https://github.com/JonaBuyayao/HUMCOM1_20212022/blob/main/Exercise%2012.css">
+</head>
+<style>
+* {
+  box-sizing: border-box;
+}
+html {
+  font-family: "Lucida Sans", sans-serif;
+}
+
+.header {
+    background-color: rgb(196, 196, 196);
+        height: 50px;
+        float:left;
+        margin-top: 10px;
+        margin-right: -100px;
+        margin-left: 20px;
+        width: 550px
+
+}
+.header1 {
+    background-color: rgb(196, 196, 196);
+        height: 50px;
+        float:right;
+        margin-top: 10px;
+        margin-right: 34px;
+        margin-left: -200px;
+        width: 620px
+}
+.body{
+    background-color: rgb(196, 196, 196);
+        height: 500px;
+        float:left;
+        margin-top: 10px;
+        margin-right: 50px;
+        margin-left: 20px;
+        width: 1194px
+}
+.box1,.box2,.box3{
+    background-color: rgb(196, 196, 196);
+        height: 200px;
+        float:left;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-right: 1px;
+        margin-left: 20px;
+        width: 384px
+}
+.box1a,.box2a,.box3a,.box4a{
+    background-color: rgb(196, 196, 196);
+        height: 200px;
+        float:left;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-right: -9px;
+        margin-left: 20px;
+        width: 290px
+}
+
+/* For mobile phones: */
+@media only screen and (max-width: 320px){
+    .header,.header1,.body,.box1,.box2,.box3,.box1a,.box2a,.box3a,.box4a{
+        width: 100%;
+    }
+}
+
+/* For tablets: */
+@media only screen and (max-width: 768px) {
+    .header,.header1,.body,.box1,.box2,.box3,.box1a,.box2a,.box3a,.box4a{
+        width: 100%;
+    }
+}
+/* For desktop: */
+@media only screen and (max-width: 1024px) {
+    .header,.header1,.body,.box1,.box2,.box3,.box1a,.box2a,.box3a,.box4a{
+        width: 100%;
+    }
+}
+</style>
+
+<body>
+    <div class="header">header</div>
+        <div class="header1">header1</div>
+    <div class="body">body</div>
+    <div class="box1">box1</div>
+    <div class="box2">box2</div>
+    <div class="box3">box3</div>
+    <div class="box1a">box1a</div>
+    <div class="box2a">box2a</div>
+    <div class="box3a">box3a</div>
+    <div class="box4a">box4a</div>
+</body>
+</html>
